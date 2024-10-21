@@ -1,0 +1,123 @@
+header, .lower-section {
+    max-width: 1440px;
+    margin: 0 auto 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 100px;
+}
+
+.navigation ul{
+    height: 42px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navigation ul li {
+    padding-left: 50px;
+    font-size: 17px;
+    color: #636060;
+    line-height: 19.55px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.main-banner {
+    display: flex;
+    background-image: url(/img/main_img_greece.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 84px;
+}
+
+h1 {
+    font-size: 79px;
+    color: #FFFFFF;
+    line-height: 90.84px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 31px;
+}
+
+.main-banner p {
+    font-size: 19px;
+    color: #ffffff;
+    line-height: 21.85px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.lower-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.lower-left-section {
+    display: flex;
+    flex-direction: column;
+    width: 236px;
+    margin-right: 50px;
+}
+
+.discover-p {
+    font-size: 17px;
+    color: #636060;
+    line-height: 19.55px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 28px;
+    color: #010101;
+    line-height: 32.2px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 9px 0px 37px 0;
+}
+
+.left-section-description {
+    font-size: 20px;
+    color: #636060;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+.lower-right-section {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.widget {
+    width: 286px;
+    margin-bottom: 56px;
+    margin-left: 33px;
+}
+
+h3 {
+    font-size: 19px;
+    line-height: 21.85px;
+    font-weight: 400;
+    color: #343232;
+    margin: 23px 0 9px 0;
+}
+
+.widget p {
+    font-size: 18px;
+    line-height: 20.7px;
+    font-weight: 400;
+    color: #636060;
+}
+
